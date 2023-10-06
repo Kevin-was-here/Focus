@@ -1,8 +1,13 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import React from 'react';
+import Box1 from './components/box1';
+import Box2 from './components/box2';
+import Box3 from './components/box3';
+import Box4 from './components/box4';
+import largebox from './components/largebox';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
